@@ -29,6 +29,10 @@ function recordData ($table, $xml) {
 
 // Kontrola vstupního hash
 $hash = filter_input(INPUT_GET, "hash", FILTER_SANITIZE_STRING);
+if (strlen($hash) == 0) {
+	$hash = $argv[1];
+}
+
 if ($hash !== HASH) {
 	die ("Nesouhlasi hash. Neni spusteno z webu?");
 }

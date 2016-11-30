@@ -9,8 +9,3 @@ Skript sbírající informace o obsazenosti parkovacích domů ve správě Parki
 
 ## Data
 V databázi budou dvě tabulky, do kterých se ukládají data. Jedna pro parkovací dům Rychtářka, druhá pro Jízdeckou. Jednotlivé sloupce v tabulkách odpovídají hodnotám ve stahovaném XML.
-
-## Jak to funguje
-Stejně jako mobilní aplikace města si i my stahujeme XML s informacemi o využití parkovacích domů. XML jsou na následujících adresách:
-- Rychtářka: [http://parking.parkingplzen.cz/rychtarka.xml](http://parking.parkingplzen.cz/rychtarka.xml)
-- Jízdecká: [http://parking.parkingplzen.cz/jizdecka.xml](http://parking.parkingplzen.cz/jizdecka.xml)

@@ -8,7 +8,8 @@ CREATE TABLE `rychtarka` (
  `volno` int(11) DEFAULT NULL,
  `volno_bez_prepoctu` int(11) DEFAULT NULL,
  `datum_aktualizace` varchar(255) COLLATE utf8_czech_ci DEFAULT NULL,
- PRIMARY KEY (`id`)
+ PRIMARY KEY (`id`),
+ KEY `datum` (`datum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci
 
 CREATE TABLE `jizdecka` (
@@ -21,6 +22,7 @@ CREATE TABLE `jizdecka` (
  `volno` int(11) DEFAULT NULL,
  `volno_bez_prepoctu` int(11) DEFAULT NULL,
  `datum_aktualizace` varchar(255) COLLATE utf8_czech_ci DEFAULT NULL,
- PRIMARY KEY (`id`)
+ PRIMARY KEY (`id`),
+ KEY `datum` (`datum`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci
 
